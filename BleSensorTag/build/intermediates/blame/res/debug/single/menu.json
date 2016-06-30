@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\Kayci\\AndroidStudioProjects\\BleSensorTag\\build\\intermediates\\res\\merged\\debug\\menu\\device_activity_actions.xml",
+        "source": "C:\\Users\\Kayci\\AndroidStudioProjects\\BleSensorTag\\src\\main\\res\\menu\\device_activity_actions.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kayci\\AndroidStudioProjects\\BleSensorTag\\build\\intermediates\\res\\merged\\debug\\menu\\main_activity_actions.xml",
+        "source": "C:\\Users\\Kayci\\AndroidStudioProjects\\BleSensorTag\\src\\main\\res\\menu\\main_activity_actions.xml"
+    }
+]

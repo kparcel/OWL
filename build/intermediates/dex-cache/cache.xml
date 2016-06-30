@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Kayci\AndroidStudioProjects\angel-sample-app\build\intermediates\exploded-aar\angel-sample-app\angel-sdk-debug\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="9bdc895f967550b95daf9e7420fe8a6a0e29539c">
+        <dex dex="C:\Users\Kayci\AndroidStudioProjects\angel-sample-app\build\intermediates\pre-dexed\debug\classes-566056925473d5116a9ae6f960652a2ca123a358.jar" />
+    </item>
+    <item
+        jar="C:\Users\Kayci\AndroidStudioProjects\angel-sdk\Android\angel-sample-app\build\intermediates\exploded-aar\angel-sample-app\angel-sdk-debug\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="9bdc895f967550b95daf9e7420fe8a6a0e29539c">
+        <dex dex="C:\Users\Kayci\AndroidStudioProjects\angel-sdk\Android\angel-sample-app\build\intermediates\pre-dexed\debug\classes-0dbd51542dcf85b82acce3543f4d4f55d500962c.jar" />
+    </item>
+
+</items>
