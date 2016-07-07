@@ -11,12 +11,12 @@ buildscript {
 apply plugin: 'android'
 
 android {
-    compileSdkVersion 19
-    buildToolsVersion "19.1"
+    compileSdkVersion 21
+    buildToolsVersion "21.1.2"
 
     defaultConfig {
         minSdkVersion 18
-        targetSdkVersion 18
+        targetSdkVersion 21
     }
 
     buildTypes {
@@ -30,4 +30,5 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.aar'])
     compile project(':angel-sdk-debug')
+    compile project(':BleSensorTag')
 }

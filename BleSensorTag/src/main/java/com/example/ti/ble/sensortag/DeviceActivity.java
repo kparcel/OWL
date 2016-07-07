@@ -288,7 +288,7 @@ import com.example.ti.util.PreferenceWR;
 		return fi;
 	}
 
-	void onViewInflated(View view) {
+	public void onViewInflated(View view) {
 		// Log.d(TAG, "Gatt view ready");
 		setBusy(true);
 

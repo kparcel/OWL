@@ -2,11 +2,11 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Kayci\AndroidStudioProjects\angel-sample-app\build\intermediates\exploded-aar\angel-sample-app\angel-sdk-debug\unspecified\jars\classes.jar"
+        jar="C:\Users\Kayci\AndroidStudioProjects\angel-sample-app\build\intermediates\exploded-aar\angel-sample-app\BleSensorTag\unspecified\jars\libs\org.eclipse.paho.android.service-1.0.2.jar"
         jumboMode="false"
-        revision="19.1.0"
-        sha1="9bdc895f967550b95daf9e7420fe8a6a0e29539c">
-        <dex dex="C:\Users\Kayci\AndroidStudioProjects\angel-sample-app\build\intermediates\pre-dexed\debug\classes-566056925473d5116a9ae6f960652a2ca123a358.jar" />
+        revision="21.1.2"
+        sha1="3b8420e57139cc627a55be0c17b6687e92d7460f">
+        <dex dex="C:\Users\Kayci\AndroidStudioProjects\angel-sample-app\build\intermediates\pre-dexed\debug\org.eclipse.paho.android.service-1.0.2-4bcb6e0a02170cb7269375e00b98cd05a642e776.jar" />
     </item>
     <item
         jar="C:\Users\Kayci\AndroidStudioProjects\angel-sdk\Android\angel-sample-app\build\intermediates\exploded-aar\angel-sample-app\angel-sdk-debug\unspecified\jars\classes.jar"
@@ -14,6 +14,69 @@
         revision="19.1.0"
         sha1="9bdc895f967550b95daf9e7420fe8a6a0e29539c">
         <dex dex="C:\Users\Kayci\AndroidStudioProjects\angel-sdk\Android\angel-sample-app\build\intermediates\pre-dexed\debug\classes-0dbd51542dcf85b82acce3543f4d4f55d500962c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Kayci\AndroidStudioProjects\angel-sample-app\build\intermediates\exploded-aar\angel-sample-app\BleSensorTag\unspecified\jars\libs\org.eclipse.paho.android.service-1.0.2.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="3b8420e57139cc627a55be0c17b6687e92d7460f">
+        <dex dex="C:\Users\Kayci\AndroidStudioProjects\angel-sample-app\build\intermediates\pre-dexed\debug\org.eclipse.paho.android.service-1.0.2-4bcb6e0a02170cb7269375e00b98cd05a642e776.jar" />
+    </item>
+    <item
+        jar="C:\Users\Kayci\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="C:\Users\Kayci\AndroidStudioProjects\angel-sample-app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-b790527bc0d777dd9912e9bb153c70eb42e60cab.jar" />
+    </item>
+    <item
+        jar="C:\Users\Kayci\AndroidStudioProjects\angel-sample-app\build\intermediates\exploded-aar\angel-sample-app\angel-sdk-debug\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9bdc895f967550b95daf9e7420fe8a6a0e29539c">
+        <dex dex="C:\Users\Kayci\AndroidStudioProjects\angel-sample-app\build\intermediates\pre-dexed\debug\classes-566056925473d5116a9ae6f960652a2ca123a358.jar" />
+    </item>
+    <item
+        jar="C:\Users\Kayci\AndroidStudioProjects\angel-sample-app\build\intermediates\exploded-aar\angel-sample-app\BleSensorTag\unspecified\jars\libs\org.eclipse.paho.client.mqttv3-1.0.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="02e433eb0fda11fe7170cf8214ba2f4d165c29b6">
+        <dex dex="C:\Users\Kayci\AndroidStudioProjects\angel-sample-app\build\intermediates\pre-dexed\debug\org.eclipse.paho.client.mqttv3-1.0.2-1030f409ba098977fb6b972c480b447d001cd041.jar" />
+    </item>
+    <item
+        jar="C:\Users\Kayci\AndroidStudioProjects\angel-sample-app\build\intermediates\exploded-aar\angel-sample-app\BleSensorTag\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9c85d395122cc7f9dfffbb94f4845e812e82ba42">
+        <dex dex="C:\Users\Kayci\AndroidStudioProjects\angel-sample-app\build\intermediates\pre-dexed\debug\classes-f65211624fb55a66e7b8da0c53a4cf391c12e3ce.jar" />
+    </item>
+    <item
+        jar="C:\Users\Kayci\AndroidStudioProjects\angel-sample-app\build\intermediates\exploded-aar\angel-sample-app\BleSensorTag\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="eadc8728e633999bc8b8b9d0a21ffe286a0dc0dd">
+        <dex dex="C:\Users\Kayci\AndroidStudioProjects\angel-sample-app\build\intermediates\pre-dexed\debug\classes-f65211624fb55a66e7b8da0c53a4cf391c12e3ce.jar" />
+    </item>
+    <item
+        jar="C:\Users\Kayci\AndroidStudioProjects\angel-sample-app\build\intermediates\exploded-aar\angel-sample-app\angel-sdk-debug\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="9bdc895f967550b95daf9e7420fe8a6a0e29539c">
+        <dex dex="C:\Users\Kayci\AndroidStudioProjects\angel-sample-app\build\intermediates\pre-dexed\debug\classes-566056925473d5116a9ae6f960652a2ca123a358.jar" />
+    </item>
+    <item
+        jar="C:\Users\Kayci\AndroidStudioProjects\angel-sample-app\build\intermediates\exploded-aar\angel-sample-app\BleSensorTag\unspecified\jars\libs\org.eclipse.paho.client.mqttv3-1.0.2.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="02e433eb0fda11fe7170cf8214ba2f4d165c29b6">
+        <dex dex="C:\Users\Kayci\AndroidStudioProjects\angel-sample-app\build\intermediates\pre-dexed\debug\org.eclipse.paho.client.mqttv3-1.0.2-1030f409ba098977fb6b972c480b447d001cd041.jar" />
+    </item>
+    <item
+        jar="C:\Users\Kayci\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="C:\Users\Kayci\AndroidStudioProjects\angel-sample-app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-b790527bc0d777dd9912e9bb153c70eb42e60cab.jar" />
     </item>
 
 </items>

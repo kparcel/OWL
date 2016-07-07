@@ -6,7 +6,11 @@
 
     <uses-sdk
         android:minSdkVersion="18"
-        android:targetSdkVersion="18" />
+        android:targetSdkVersion="21" />
+
+    <uses-feature
+        android:name="android.hardware.bluetooth_le"
+        android:required="true" />
 
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
@@ -19,6 +23,10 @@
         android:name="com.angel.sdk.BleController"
         android:enabled="true" >
     </service>
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
  <!-- android:theme="@style/AppTheme" -->
     <application
         android:allowBackup="true"
@@ -45,6 +53,16 @@
             android:name="com.angel.sample_app.HomeActivity"
             android:label="@string/title_activity_home" >
         </activity>
+
+        <service
+            android:name="org.eclipse.paho.android.service.MqttService"
+            android:enabled="true" />
+
+        <activity
+            android:name="com.example.ti.ble.sensortag.DeviceActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:parentActivityName="com.angel.sample_app.ScanActivity"
+            android:screenOrientation="unspecified" />
     </application>
 
 </manifest>

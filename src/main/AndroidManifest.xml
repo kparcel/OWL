@@ -8,6 +8,10 @@
         android:minSdkVersion="18"
         android:targetSdkVersion="18" />
 
+    <uses-feature
+        android:name="android.hardware.bluetooth_le"
+        android:required="true" />
+
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
 
@@ -28,6 +32,7 @@
             android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -41,6 +46,17 @@
             android:name="com.angel.sample_app.HomeActivity"
             android:label="@string/title_activity_home" >
         </activity>
+
+        <service android:name="org.eclipse.paho.android.service.MqttService"
+            android:enabled="true" />
+
+        <activity
+            android:name="com.example.ti.ble.sensortag.DeviceActivity"
+            android:parentActivityName=".ScanActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="unspecified" />
+
+
     </application>
 
 </manifest>

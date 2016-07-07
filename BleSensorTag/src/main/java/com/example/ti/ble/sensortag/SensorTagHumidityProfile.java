@@ -70,12 +70,13 @@ import com.example.ti.util.GenericCharacteristicTableRow;
 import com.example.ti.util.Point3D;
 
 public class SensorTagHumidityProfile extends GenericBluetoothProfile {
-		public SensorTagHumidityProfile(Context con,BluetoothDevice device,BluetoothGattService service,BluetoothLeService controller) {
-			super(con,device,service,controller);
-			this.tRow =  new GenericCharacteristicTableRow(con);
-			
+
+	public SensorTagHumidityProfile(Context con,BluetoothDevice device,BluetoothGattService service,BluetoothLeService controller) {
+			super(con, device, service, controller);
+			this.tRow = new GenericCharacteristicTableRow(con);
+
 			List<BluetoothGattCharacteristic> characteristics = this.mBTService.getCharacteristics();
-			
+
 			for (BluetoothGattCharacteristic c : characteristics) {
 				if (c.getUuid().toString().equals(SensorTagGatt.UUID_HUM_DATA.toString())) {
 					this.dataC = c;
@@ -87,14 +88,12 @@ public class SensorTagHumidityProfile extends GenericBluetoothProfile {
 					this.periodC = c;
 				}
 			}
-			
-			this.tRow.setIcon(this.getIconPrefix(), this.dataC.getUuid().toString());
-			
-			this.tRow.title.setText(GattInfo.uuidToName(UUID.fromString(this.dataC.getUuid().toString())));
-			this.tRow.uuidLabel.setText(this.dataC.getUuid().toString());
-			this.tRow.value.setText("0.0%rH");
-			this.tRow.periodBar.setProgress(100);
 		}
+
+
+
+
+
 		
 		public static boolean isCorrectService(BluetoothGattService service) {
 			if ((service.getUuid().toString().compareTo(SensorTagGatt.UUID_HUM_SERV.toString())) == 0) {//service.getUuid().toString().compareTo(SensorTagGatt.UUID_HUM_DATA.toString())) {

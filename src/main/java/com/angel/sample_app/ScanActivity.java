@@ -50,6 +50,8 @@ import android.widget.TextView;
 
 import com.angel.sdk.BleScanner;
 import com.angel.sdk.BluetoothInaccessibleException;
+import com.example.ti.ble.sensortag.DeviceActivity;
+import com.example.ti.ble.sensortag.DeviceView;
 
 import junit.framework.Assert;
 
@@ -221,12 +223,23 @@ public class ScanActivity extends Activity implements OnClickListener {
                     intent.putExtra("ble_device_address", bluetoothDevice.getAddress());
                     intent.putExtra("ble_device_name", bluetoothDevice.getName());
                     startActivity(intent);
+
+                    //Intent intentCC = new Intent(parent.getContext(), SensorTagHomeActivity.class);
+                    //intentCC.putExtra("ble_device_address", bluetoothDevice.getAddress());
+                    //intentCC.putExtra("ble_device_name", bluetoothDevice.getName());
+                    //startActivity(intentCC);
                 }
                 //Do this if the other device methods have to be in a different class
                 else if (bluetoothDevice.getName().startsWith("CC2650")){
                     Intent intentCC = new Intent(parent.getContext(), HomeActivity.class);
                     intentCC.putExtra("ble_device_address", bluetoothDevice.getAddress());
+                    intentCC.putExtra("ble_device_name", bluetoothDevice.getName());
                     startActivity(intentCC);
+                    //Intent intent = new Intent(parent.getContext(), com.example.ti.ble.sensortag.FileActivity.class);
+                    //intent.putExtra("ble_device_address", bluetoothDevice.getAddress());
+                    //intent.putExtra("ble_device_name", bluetoothDevice.getName());
+                    //startActivity(intent);
+
                 }
 
             }
